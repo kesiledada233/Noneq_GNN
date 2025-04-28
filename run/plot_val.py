@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # 读取example_noneq验证集文件
-val_noneq_file_path = "./results/example_noneq_5/agg/val/stats.json"
+val_noneq_file_path = "./results/example_noneq_6/agg/val/stats.json"
 val_data_noneq = []
 
 with open(val_noneq_file_path, "r") as f:
